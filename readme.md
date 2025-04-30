@@ -7,7 +7,7 @@ Magnet POW 区块链上的智能合约源码，用于处理挖矿交易并分发
 
 ### 项目优势
 - **无亏损风险**：  
-  ORE 和 FOMO 挖矿需消耗 SOL 和 SUI，若代币价格下跌，挖矿易亏损。Magnet POW 仅仅使用少量 MAG 支付 Gas 费，挖矿获 MAG，成本与收益同质，永不亏损。
+  ORE 和 FOMO 挖矿需消耗 SOL 和 SUI，若代币价格下跌，挖矿易亏损。Magnet POW 使用 MAG 支付 Gas 费，挖矿获 MAG，成本与收益同质，永不亏损。
 - **独立 POW 链**：  
   自建区块链，Gas 费低，效率高。
 
@@ -34,7 +34,8 @@ Magnet POW 区块链上的智能合约源码，用于处理挖矿交易并分发
 - 团队唯一 BSC 钱包地址：  
   `0x7649642df8e568fD11FCC7bfb6dfd0E8B371EF56`  
   **请核对，防诈骗**。
-- 有问题请在 Telegram 群咨询。
+- 有问题请在 Telegram 群咨询：  
+  [加入 Telegram 群](https://t.me/MagnetPOW)
 
 ---
 
@@ -72,4 +73,5 @@ This is the smart contract source code deployed on the Magnet POW blockchain, de
 - Team’s only BSC wallet:  
   `0x7649642df8e568fD11FCC7bfb6dfd0E8B371EF56`  
   **Verify to avoid scams**.
-- Contact staff in the Telegram group for questions.
+- Contact staff in the Telegram group for questions:  
+  [Join Telegram Group](https://t.me/MagnetPOW)
