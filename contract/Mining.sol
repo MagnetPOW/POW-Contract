@@ -1,3 +1,4 @@
+//0x0549c1fcc8eca06b5862eb404b7f3ee093449b6e
 pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -79,8 +80,8 @@ contract MiningContract is Ownable, ReentrancyGuard {
             block.number,
             block.timestamp
         )));
-        // 设置难度为1000万
-        uint256 difficulty = 10000000; // 1000万，基于20万哈希/秒计算
+        // 设置难度为300万
+        uint256 difficulty = 3000000; // 300万，基于20万哈希/秒计算
 
         // 保存用户任务
         userTasks[msg.sender] = MiningTask(nonce, difficulty, true);
