@@ -1,4 +1,3 @@
-//0xe58d55786ff7a109de4d82305dc5b081b6ac1ca6
 pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -24,10 +23,10 @@ contract MiningContract is Ownable, ReentrancyGuard {
     mapping(address => MiningTask) private userTasks;
 
     // 奖励金额（以 Wei 为单位）
-    uint256 public constant FREE_REWARD = 0.3 ether;
-    uint256 public constant LEVEL30_REWARD = 7 ether;
-    uint256 public constant LEVEL200_REWARD = 120 ether;
-    uint256 public constant LEVEL1000_REWARD = 1000 ether;
+    uint256 public constant FREE_REWARD = 0.2 ether;
+    uint256 public constant LEVEL30_REWARD = 4 ether;
+    uint256 public constant LEVEL200_REWARD = 60 ether;
+    uint256 public constant LEVEL1000_REWARD = 500 ether;
 
     // 事件
     event NewMiningTask(address indexed user, uint256 difficulty); // 移除 nonce，防止泄露
@@ -80,8 +79,8 @@ contract MiningContract is Ownable, ReentrancyGuard {
             block.number,
             block.timestamp
         )));
-        // 设置难度（可根据实际需求调整）
-        uint256 difficulty = 2 ** 240; // 要求哈希前 16 位为 0
+        // 设置难度为1000万
+        uint256 difficulty = 10000000; // 1000万，基于20万哈希/秒计算
 
         // 保存用户任务
         userTasks[msg.sender] = MiningTask(nonce, difficulty, true);
