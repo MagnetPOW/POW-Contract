@@ -12,22 +12,12 @@ Magnet POW 区块链上的智能合约源码，用于处理挖矿交易并分发
   自建区块链，Gas 费低，效率高。
 
 ### 挖矿模式
-- **免费挖矿**：每次提交有效哈希，获得 `0.2 MAG`。
-- **付费挖矿**：
-  - 支付 `30 USDT`：每次提交有效哈希，获得 `4 MAG`。
-  - 支付 `200 USDT`：每次提交有效哈希，获得 `60 MAG`。
-  - 支付 `1000 USDT`：每次提交有效哈希，获得 `500 MAG`。
+- **免费挖矿**：每次提交有效哈希，获得 `3 MAG`。
 
 ### 智能合约详情
 - **代币锁定**：合约锁定 `300 亿枚 MAG`，用于第一阶段挖矿分发。
 - **启动要求**：钱包需充值 `0.1 MAG` 启动挖矿。
 - **空投活动**：加入 Telegram 群，免费领取 `0.1 MAG`。
-
-### 付费挖矿激活
-1. 转账 USDT 至团队 BSC 钱包地址：  
-   `0x7649642df8e568fD11FCC7bfb6dfd0E8B371EF56`
-2. 在 Telegram 群通知工作人员（勿私聊，防诈骗）。
-3. 工作人员将您的地址加入 Magnet POW 挖矿白名单，激活高奖励。
 
 ### 注意事项
 - 挖矿交易和 Gas 费仅消耗 MAG 代币。
@@ -51,22 +41,12 @@ This is the smart contract source code deployed on the Magnet POW blockchain, de
   Our blockchain offers low Gas fees and high efficiency.
 
 ### Mining Modes
-- **Free Mining**: Earn `0.2 MAG` per valid hash.
-- **Paid Mining**:
-  - Pay `30 USDT`: Earn `4 MAG` per valid hash.
-  - Pay `200 USDT`: Earn `60 MAG` per valid hash.
-  - Pay `1000 USDT`: Earn `500 MAG` per valid hash.
+- **Free Mining**: Earn `3 MAG` per valid hash.
 
 ### Smart Contract Details
 - **Token Lock**: `30 billion MAG` locked for first-phase mining.
 - **Activation Requirement**: Wallet needs `0.1 MAG` to start mining.
 - **Airdrop**: Join Telegram group for a free `0.1 MAG` airdrop.
-
-### Activating Paid Mining
-1. Transfer USDT to the team’s BSC wallet:  
-   `0x7649642df8e568fD11FCC7bfb6dfd0E8B371EF56`
-2. Notify staff in the Telegram group (avoid private messages to prevent scams).
-3. Staff will add your address to the Magnet POW mining whitelist for higher rewards.
 
 ### Important Notes
 - Mining and Gas fees use only MAG tokens.
